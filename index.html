@@ -1,0 +1,531 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lumière Studio — Fine Art Photography</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- NAV -->
+    <nav class="nav-bar" id="navBar">
+      <a class="nav-bar__logo" href="#">Lumière.</a>
+      <ul class="nav-bar__list">
+        <li class="nav-bar__item">
+          <a class="nav-bar__link" href="#portfolio">Work</a>
+        </li>
+        <li class="nav-bar__item">
+          <a class="nav-bar__link" href="#about">About</a>
+        </li>
+        <li class="nav-bar__item">
+          <a class="nav-bar__link" href="#services">Services</a>
+        </li>
+        <li class="nav-bar__item">
+          <a class="nav-bar__link" href="#testimonials">Words</a>
+        </li>
+        <li class="nav-bar__item">
+          <a class="nav-bar__link nav-bar__link--cta" href="#contact"
+            >Book a session</a
+          >
+        </li>
+      </ul>
+      <button class="nav-bar__hamburger" id="hamburger" aria-label="menu">
+        <span></span><span></span>
+      </button>
+    </nav>
+
+    <!-- MOBILE-MENU -->
+    <div class="mobile-menu" id="mobileMenu">
+      <a class="mobile-menu__link" href="#portfolio">Work</a>
+      <a class="mobile-menu__link" href="#about">About</a>
+      <a class="mobile-menu__link" href="#services">Services</a>
+      <a class="mobile-menu__link" href="#testimonials">Words</a>
+      <a class="mobile-menu__link" href="#contact">Book a session</a>
+    </div>
+
+    <!-- HERO -->
+    <section class="hero" id="hero">
+      <div class="hero__background">
+        <div class="hero__slide hero__slide--1"></div>
+        <div class="hero__slide hero__slide--2"></div>
+        <div class="hero__slide hero__slide--3"></div>
+      </div>
+
+      <div class="hero__content">
+        <p class="hero__eyebrow reveal">
+          Fine art photography studio — est. 2018
+        </p>
+        <h1 class="hero__title reveal">
+          Light is the<br /><em>language</em><br />we speak.
+        </h1>
+        <p class="hero__description reveal">
+          Editorial, portrait & commercial photography<br />based in São Paulo,
+          Brazil.
+        </p>
+        <div class="hero__actions reveal">
+          <a href="#portfolio" class="button button--primary">View our work</a>
+          <a href="#contact" class="button button--ghost">Book a session →</a>
+        </div>
+      </div>
+
+      <div class="hero__scroll-indicator">
+        <span>scroll</span>
+        <div class="hero__scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee">
+      <div class="marquee__track">
+        <span class="marquee__item">editorial</span>
+        <span class="marquee__dot">·</span>
+        <span class="marquee__item">portrait</span>
+        <span class="marquee__dot">·</span>
+        <span class="marquee__item">commercial</span>
+        <span class="marquee__dot">·</span>
+        <span class="marquee__item">fine art</span>
+        <span class="marquee__dot">·</span>
+        <span class="marquee__item">fashion</span>
+        <span class="marquee__dot">·</span>
+        <span class="marquee__item">lifestyle</span>
+        <span class="marquee__dot">·</span>
+        <span class="marquee__item">editorial</span>
+        <span class="marquee__dot">·</span>
+        <span class="marquee__item">portrait</span>
+        <span class="marquee__dot">·</span>
+        <span class="marquee__item">commercial</span>
+        <span class="marquee__dot">·</span>
+        <span class="marquee__item">fine art</span>
+        <span class="marquee__dot">·</span>
+        <span class="marquee__item">fashion</span>
+        <span class="marquee__dot">·</span>
+        <span class="marquee__item">lifestyle</span>
+        <span class="marquee__dot">·</span>
+      </div>
+    </div>
+
+    <!-- PORTFOLIO -->
+    <section class="portfolio" id="portfolio">
+      <div class="section-header">
+        <p class="section-header__label reveal">Selected work</p>
+        <h2 class="section-header__title reveal">
+          Every frame,<br /><em>a story.</em>
+        </h2>
+      </div>
+
+      <div class="gallery">
+        <figure class="gallery__item gallery__item--tall reveal">
+          <img
+            class="gallery__image"
+            src="images/img-slide-01.jpg"
+            alt="Close-up portrait with natural light — Solitude Series"
+          />
+          <figcaption class="gallery__overlay">
+            <span class="gallery__category">Portrait</span>
+            <p class="gallery__title">Solitude Series</p>
+          </figcaption>
+        </figure>
+
+        <figure class="gallery__item reveal">
+          <img
+            class="gallery__image"
+            src="images/img-slide-02.jpg"
+            alt="Fashion editorial with minimalist styling — Haute Minimal"
+          />
+          <figcaption class="gallery__overlay">
+            <span class="gallery__category">Editorial</span>
+            <p class="gallery__title">Haute Minimal</p>
+          </figcaption>
+        </figure>
+
+        <figure class="gallery__item reveal">
+          <img
+            class="gallery__image"
+            src="images/img-slide-03.jpg"
+            alt="Model posing for commercial brand campaign — Brand Identity"
+          />
+          <figcaption class="gallery__overlay">
+            <span class="gallery__category">Commercial</span>
+            <p class="gallery__title">Brand Identity</p>
+          </figcaption>
+        </figure>
+
+        <figure class="gallery__item gallery__item--wide reveal">
+          <img
+            class="gallery__image"
+            src="images/img-slide-04.jpg"
+            alt="Dramatic fine art photograph exploring light and shadow"
+          />
+          <figcaption class="gallery__overlay">
+            <span class="gallery__category">Fine Art</span>
+            <p class="gallery__title">Light &amp; Shadow</p>
+          </figcaption>
+        </figure>
+
+        <figure class="gallery__item reveal">
+          <img
+            class="gallery__image"
+            src="images/img-slide-05.jpg"
+            alt="Urban portrait session on city streets — Urban Soul"
+          />
+          <figcaption class="gallery__overlay">
+            <span class="gallery__category">Portrait</span>
+            <p class="gallery__title">Urban Soul</p>
+          </figcaption>
+        </figure>
+
+        <figure class="gallery__item gallery__item--tall reveal">
+          <img
+            class="gallery__image"
+            src="images/img-slide-06.jpg"
+            alt="Black and white editorial portrait — Monochrome"
+          />
+          <figcaption class="gallery__overlay">
+            <span class="gallery__category">Editorial</span>
+            <p class="gallery__title">Monochrome</p>
+          </figcaption>
+        </figure>
+      </div>
+
+      <div class="portfolio__cta reveal">
+        <a href="#" class="button button--outline">View full portfolio</a>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+      <div class="about__inner">
+        <div class="about__media reveal">
+          <img
+            class="about__image about__image--main"
+            src="images/img-about-01.jpg"
+            alt="Photographer Clara Moraes Photographer"
+          />
+          <img
+            class="about__image about__image--accent"
+            src="images/img-about-02.jpg"
+            alt="Behind the scenes of a professional photo shoot"
+          />
+          <div class="about__counter">
+            <span class="about__counter-number">340+</span>
+            <span class="about__counter-label">sessions</span>
+          </div>
+        </div>
+        <div class="about__content">
+          <p class="section-header__label reveal">About the studio</p>
+          <h2 class="section-header__title reveal">
+            We don't take photos.<br /><em>We make them.</em>
+          </h2>
+          <p class="about__text reveal">
+            Lumière is a fine art photography studio founded by
+            <strong>Clara Moraes</strong> in 2018. We believe that a great
+            photograph is never accidental — it is the result of intention,
+            light, and a deep understanding of the subject.
+          </p>
+          <p class="about__text reveal">
+            From intimate portrait sessions to large-scale commercial campaigns,
+            every project starts with a conversation and ends with images that
+            last a lifetime.
+          </p>
+          <div class="about__badges reveal">
+            <span class="about__badge">São Paulo, SP</span>
+            <span class="about__badge">Est. 2018</span>
+            <span class="about__badge">Available worldwide</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES -->
+    <section class="services" id="services">
+      <div class="section-header">
+        <p class="section-header__label reveal">What we offer</p>
+        <h2 class="section-header__title reveal">Our <em>services.</em></h2>
+      </div>
+      <div class="services__grid">
+        <div class="service-card reveal">
+          <div class="service-card__number">01</div>
+          <h3 class="service-card__name">Portrait Session</h3>
+          <p class="service-card__description">
+            Intimate, carefully lit portrait sessions for individuals, couples,
+            and families. Studio or outdoor locations.
+          </p>
+          <ul class="service-card__features">
+            <li>2–3 hour session</li>
+            <li>2 locations of choice</li>
+            <li>30 edited high-res images</li>
+            <li>Private online gallery</li>
+          </ul>
+          <div class="service-card__pricing">
+            <span class="service-card__price-label">from</span>
+            <span class="service-card__price-value">R$ 1.200</span>
+          </div>
+          <a href="#contact" class="service-card__cta">Book now →</a>
+        </div>
+
+        <div class="service-card service-card--featured reveal">
+          <div class="service-card__badge">Most popular</div>
+          <div class="service-card__number">02</div>
+          <h3 class="service-card__name">Editorial</h3>
+          <p class="service-card__description">
+            Full editorial production for fashion, lifestyle, and brand
+            campaigns. Concept, styling, and post-production included.
+          </p>
+          <ul class="service-card__features">
+            <li>Full day production</li>
+            <li>Art direction included</li>
+            <li>60+ edited images</li>
+            <li>Commercial license</li>
+          </ul>
+          <div class="service-card__pricing">
+            <span class="service-card__price-label">from</span>
+            <span class="service-card__price-value">R$ 4.800</span>
+          </div>
+          <a href="#contact" class="service-card__cta">Book now →</a>
+        </div>
+
+        <div class="service-card reveal">
+          <div class="service-card__number">03</div>
+          <h3 class="service-card__name">Commercial</h3>
+          <p class="service-card__description">
+            Product, brand, and corporate photography for businesses looking to
+            elevate their visual presence.
+          </p>
+          <ul class="service-card__features">
+            <li>Half or full day</li>
+            <li>Product & lifestyle shots</li>
+            <li>50+ edited images</li>
+            <li>Full commercial rights</li>
+          </ul>
+          <div class="service-card__pricing">
+            <span class="service-card__price-label">from</span>
+            <span class="service-card__price-value">R$ 3.200</span>
+          </div>
+          <a href="#contact" class="service-card__cta">Book now →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section class="testimonials" id="testimonials">
+      <div class="section-header">
+        <p class="section-header__label reveal">Kind words</p>
+        <h2 class="section-header__title reveal">
+          What our clients <em>say.</em>
+        </h2>
+      </div>
+      <div class="testimonials__slider" id="testimonialsSlider">
+        <div class="testimonial-card">
+          <p class="testimonial-card__quote">
+            "Clara has an extraordinary eye. She captured our brand campaign
+            with a sensitivity and elegance we didn't think was possible. The
+            images speak for themselves."
+          </p>
+          <div class="testimonial-card__author">
+            <img
+              class="testimonial-card__avatar"
+              src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=200&q=80"
+              alt="Marina Souza, Creative Director"
+            />
+            <div>
+              <p class="testimonial-card__name">Marina Souza</p>
+              <p class="testimonial-card__role">
+                Creative Director, Mara Brand
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <p class="testimonial-card__quote">
+            "Our portrait session was an experience in itself — relaxed,
+            professional, and the final images were absolutely stunning. We'll
+            treasure them forever."
+          </p>
+          <div class="testimonial-card__author">
+            <img
+              class="testimonial-card__avatar"
+              src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&q=80"
+              alt="Rafael Lima, portrait client"
+            />
+            <div>
+              <p class="testimonial-card__name">Rafael &amp; Ana Lima</p>
+              <p class="testimonial-card__role">Portrait clients</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <p class="testimonial-card__quote">
+            "Working with Lumière was effortless. They understood the brief
+            immediately and delivered far beyond our expectations. The entire
+            team is exceptional."
+          </p>
+          <div class="testimonial-card__author">
+            <img
+              class="testimonial-card__avatar"
+              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80"
+              alt="Pedro Almeida, Marketing Lead"
+            />
+            <div>
+              <p class="testimonial-card__name">Pedro Almeida</p>
+              <p class="testimonial-card__role">Marketing Lead, Vela Co.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <p class="testimonial-card__quote">
+            "Every single photo from our editorial was frame-worthy. Lumière
+            doesn't just photograph — they create art. Highly, highly
+            recommend."
+          </p>
+          <div class="testimonial-card__author">
+            <img
+              class="testimonial-card__avatar"
+              src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&q=80"
+              alt="Isabela Nunes, Fashion Editor"
+            />
+            <div>
+              <p class="testimonial-card__name">Isabela Nunes</p>
+              <p class="testimonial-card__role">Fashion Editor, Vogue BR</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonials__nav reveal">
+        <button
+          class="testimonials__arrow"
+          id="testimonialPrev"
+          aria-label="previous"
+        >
+          ←
+        </button>
+        <div class="testimonials__dots" id="testimonialDots"></div>
+        <button
+          class="testimonials__arrow"
+          id="testimonialNext"
+          aria-label="next"
+        >
+          →
+        </button>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+      <div class="contact__inner">
+        <div class="contact__info">
+          <p class="section-header__label reveal">Get in touch</p>
+          <h2 class="section-header__title reveal">
+            Let's create<br /><em>something</em><br />beautiful.
+          </h2>
+          <div class="contact__details reveal">
+            <div class="contact__detail">
+              <span class="contact__detail-label">Email</span>
+              <a href="mailto:hello@lumiere.studio">hello@lumiere.studio</a>
+            </div>
+            <div class="contact__detail">
+              <span class="contact__detail-label">Phone</span>
+              <a href="tel:+5511999999999">+55 (11) 99999-9999</a>
+            </div>
+            <div class="contact__detail">
+              <span class="contact__detail-label">Based in</span>
+              <span>São Paulo, SP — Brazil</span>
+            </div>
+          </div>
+        </div>
+        <div class="contact__form-wrap reveal">
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="contact-form__row">
+              <div class="contact-form__group">
+                <label class="contact-form__label" for="fieldName">Name</label>
+                <input
+                  class="contact-form__input"
+                  type="text"
+                  id="fieldName"
+                  placeholder="Your name"
+                  required
+                />
+              </div>
+              <div class="contact-form__group">
+                <label class="contact-form__label" for="fieldEmail"
+                  >Email</label
+                >
+                <input
+                  class="contact-form__input"
+                  type="email"
+                  id="fieldEmail"
+                  placeholder="your@email.com"
+                  required
+                />
+              </div>
+            </div>
+            <div class="contact-form__group">
+              <label class="contact-form__label" for="fieldService"
+                >Service</label
+              >
+              <select class="contact-form__input" id="fieldService">
+                <option value="">Select a service</option>
+                <option>Portrait Session</option>
+                <option>Editorial</option>
+                <option>Commercial</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div class="contact-form__group">
+              <label class="contact-form__label" for="fieldMessage"
+                >Message</label
+              >
+              <textarea
+                class="contact-form__input"
+                id="fieldMessage"
+                rows="5"
+                placeholder="Tell us about your project..."
+                required
+              ></textarea>
+            </div>
+            <button class="button button--primary button--full" type="submit">
+              Send message →
+            </button>
+            <div class="contact-form__success" id="formSuccess">
+              <span>✓</span> Message sent! We'll be in touch within 24 hours.
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="footer__inner">
+        <div class="footer__top">
+          <a href="#" class="footer__logo">Lumière.</a>
+          <nav class="footer__nav">
+            <a class="footer__nav-link" href="#portfolio">Work</a>
+            <a class="footer__nav-link" href="#about">About</a>
+            <a class="footer__nav-link" href="#services">Services</a>
+            <a class="footer__nav-link" href="#contact">Contact</a>
+          </nav>
+          <div class="footer__social">
+            <a class="footer__social-link" href="#">Instagram</a>
+            <a class="footer__social-link" href="#">Behance</a>
+            <a class="footer__social-link" href="#">LinkedIn</a>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <p>© 2026 Lumière Studio. All rights reserved.</p>
+          <p>Crafted with care in São Paulo.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
