@@ -2,6 +2,10 @@
 
 A landing page for a fictional fine art photography studio based in São Paulo, Brazil. Built with HTML, CSS, and vanilla JavaScript — no frameworks, no libraries.
 
+**[Live Preview →](https://karenagg.github.io/lumiere-studio/)**
+
+![Lumière Studio preview](screenshots/preview.png)
+
 ## About the project
 
 I designed and coded this from scratch as a portfolio piece. The idea was to build something that looks and feels like a real photography studio website, not just a generic template.
@@ -46,6 +50,8 @@ lumiere-studio/
 │   └── script.js
 ├── images/
 │   └── (project images)
+├── screenshots/
+│   └── preview.png
 └── README.md
 ```
 
@@ -57,10 +63,6 @@ This was my first full landing page built from scratch. Some things I picked up 
 - Intersection Observer for scroll-triggered animations instead of listening to scroll events
 - Building a responsive nav that actually works well on mobile
 - CSS grid for the gallery layout — way more flexible than I expected
-
-## Live preview
-
-_Coming soon — will be deployed via GitHub Pages._
 
 ---
 
