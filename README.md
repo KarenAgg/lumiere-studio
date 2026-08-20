@@ -2,7 +2,7 @@
 
 A landing page for a fictional fine art photography studio based in São Paulo, Brazil. Built with HTML, CSS, and vanilla JavaScript — no frameworks, no libraries.
 
-**[Live Preview →](https://karenagg.github.io/lumiere-studio/)**
+**[Live Preview →](https://karenagg.github.io/dj-certificacoes/)**
 
 ![Lumière Studio preview](screenshots/preview.png)
 
